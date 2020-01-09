@@ -1,8 +1,9 @@
 //javascript, jQuery
 
-
 $(document).ready(()=>{
 
+
+  
   $("#button").click((e)=>{
     e.preventDefault();
     $("#results").empty();
@@ -19,5 +20,5 @@ $(document).ready(()=>{
     $("#results").append(`<a href="${gifurl}" target="_blank"> <img src="${gifimg}" alt="${giftitle}"/> </a>`)
   })
   })
-})
+  })
 })
