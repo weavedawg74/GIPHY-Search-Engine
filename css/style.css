@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: #3C5580;
+  font-family: 'Oswald', sans-serif;
+}
+.top-logo{
+  min-width: 50%;
+}
+h1 {
+  font-size: 2.5em;
+  color: #000000;
+}
+p {
+  font-size: 1.5em;
+  color: #000000;
+}
+#button {
+  width: 100%;
+}
+.btn-primary {
+  background-color: #1DE0FF;
+  border-color: #000000;
+  color: #000000;
+}
+.btn-primary:hover {
+  background-color: #000000;
+  border-color: #1DE0FF;
+  color: #1DE0FF;
+}
+#textinput {
+  width: 100%;
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#results img {
+  border-radius: 5px;
+  margin: 5px;
+}
+#results img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
