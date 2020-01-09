@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"body {\n  background-color: #99ceff;\n  font-family: 'Oswald', sans-serif; }\n\n.top-logo {\n  min-width: 50%; }\n\nh1 {\n  font-size: 2.5em;\n  color: #000000; }\n\np {\n  font-size: 1.5em;\n  color: #000000; }\n\n#button {\n  width: 100%; }\n\n#textinput {\n  width: 100%; }\n\n#results {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-around;\n\n  img {\n    border-radius: 5px;\n    margin: 5px;\n\n    &:hover {\n      -webkit-transform: scale(1.5);\n      transform: scale(1.5); } } }\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAO;EACzB,WAAW,EAAE,oBAAoB;CAAG;;;AAEtC,AAAA,SAAS,CAAC;EACR,SAAS,EAAE,GAAG;CAAG;;;AAEnB,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,OAAO;CAAG;;;AAEnB,AAAA,CAAC,CAAC;EACA,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,OAAO;CAAG;;;AAEnB,AAAA,OAAO,CAAC;EACN,KAAK,EAAE,IAAI;CAAG;;;AAEhB,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,IAAI;CAAG;;;AAEhB,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;CAQG;;;AAXlC,AAKE,QALM,CAKN,GAAG,CAAC;EACF,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,GAAG;CAIiB;;;AAXhC,AASI,QATI,CAKN,GAAG,AAIA,MAAM,CAAC;EACN,iBAAiB,EAAE,UAAU;EAC7B,SAAS,EAAE,UAAU;CAAG"
+}
