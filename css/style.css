@@ -50,4 +50,10 @@ p {
   transform: scale(1.5);
 }
 
+/* line 35, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+.error {
+  color: red;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
