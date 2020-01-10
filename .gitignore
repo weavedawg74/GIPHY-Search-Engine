@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # CSS File
-.css
+*.css
 
 # JSON Files
 *.json
