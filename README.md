@@ -52,3 +52,9 @@ Design a search engine using an API to communicate from my page to an external s
 ### Future improvements:
 
 I haven't fully mastered creating a responsive website, but through using and better understanding Bootstrap I do feel that I'm much closer to fully understanding and embracing the "mobile first" concept of development.
+
+### Installation Instructions:
+
+1. Download the dist folder
+2. Extract all files
+3. Open the index.html file and begin using the project

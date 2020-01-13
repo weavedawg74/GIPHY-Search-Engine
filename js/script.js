@@ -17,7 +17,7 @@ $(document).ready(()=>{
     // For empty search query, display an error message and exit the callback
     const trimmedUser = userInput.trim();
     if (trimmedUser === "") {
-      $( ".error" ).text( 'Here comes the error message for the empty string case' )
+      $( ".error" ).text( 'Please enter a search term before submitting' )
       return;
     }
 
@@ -37,7 +37,7 @@ $(document).ready(()=>{
       }
     )
     .fail( error => {
-      console.log('Fail:', error );
+      $( ".error" ).text( 'Network could not be established, please check your connection and try again.' )
       // $('selector of the error html node').text('your error message');
     })
 
