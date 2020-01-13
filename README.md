@@ -55,6 +55,6 @@ I haven't fully mastered creating a responsive website, but through using and be
 
 ### Installation Instructions:
 
-1. Download the dist folder
+1. Download the repository
 2. Extract all files
 3. Open the index.html file and begin using the project
