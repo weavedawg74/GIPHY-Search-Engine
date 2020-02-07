@@ -111,3 +111,9 @@ dist
 
 # map File
 *.map
+
+*.config.js
+
+readme_assets/
+
+sass/
