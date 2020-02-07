@@ -1,8 +1,6 @@
 //javascript, jQuery
 
 $(document).ready(()=>{
-
-
   
   $("#button").click((e) => {
     e.preventDefault();
@@ -23,7 +21,7 @@ $(document).ready(()=>{
 
 
     $.ajax({
-      url:`https://api.giphy.com/v1/gifs/search?api_key=VTKmYGhEXMlYFemmKOI6ZNSsCZaKWtaC&q=${trimmedUser}&limit=15&offset=0&rating=G&lang=en`, method: "GET"
+      url:`https://api.giphy.com/v1/gifs/search?api_key=VTKmYGhEXMlYFemmKOI6ZNSsCZaKWtaC&q=${trimmedUser}&limit=16&offset=0&rating=G&lang=en`, method: "GET"
     })
     .done(
       (res)=>{
