@@ -1,0 +1,72 @@
+/* line 1, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+body {
+  background-image: radial-gradient(circle, #c1c1dd, #b9c5e3, #afcae8, #a5ceea, #9cd3e9, #9cd3e9, #9cd3e9, #9cd3e9, #a5ceea, #afcae8, #b9c5e3, #c1c1dd);
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 6, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+.nav-item:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/* line 10, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+.top-logo {
+  width: 50%;
+}
+
+/* line 13, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+h1 {
+  font-size: 2.5em;
+  color: #000000;
+}
+
+/* line 17, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+p {
+  font-size: 1.5em;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* line 23, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+#textinput {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* line 28, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+#button {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* line 33, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* line 38, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+#results img {
+  border-radius: 5px;
+  margin: 6px;
+}
+
+/* line 42, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+#results img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/* line 46, ../../../Creative Cloud Files/GIPHY Search Engine/sass/style.sass */
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

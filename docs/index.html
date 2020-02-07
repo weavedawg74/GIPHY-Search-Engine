@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Andrew Weaverling's GIPHY Search Engine</title>
+<meta charset="utf-8">
+<!-- Viewport Meta Tag -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-715VMUUaOfZR3/rWXZJ9agJ/udwSXGEigabzUbJm2NR4/v5wpDy8c14yedZN6NL7" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="#"><img src="https://i.imgur.com/VdArSaM.png" alt="WEAVE Logo" width="35rem" height="50rem"/></a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="collapsibleNavbar">
+      <ul class="nav navbar-nav ml-auto w-100 justify-content-center flex-row">
+        <li class="nav-item">
+          <a href="mailto:weaverling.a@gmail.com"><img src="https://i.imgur.com/C9t63FA.png" title="Contact" alt="Contact" width="50rem"></a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/weavedawg74" target="_blank"><img src="https://i.imgur.com/zy2V17P.png" title="Facebook" alt="Facebook" width="50rem"></a> 
+        </li>
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/in/andrew-weaverling/" target="_blank"><img src="https://i.imgur.com/Hn8Ix3A.png" title="LinkedIn" alt="LinkedIn" width="50rem"></a>  
+        </li>      
+        <li class="nav-item">
+          <a href="https://github.com/weavedawg74" target="_blank"><img src="https://i.imgur.com/86gBT2g.png" title="Github" alt="Github" width="50rem"></a> 
+        </li>      
+        <li class="nav-item">
+          <a href="https://www.instagram.com/weavedawg74/" target="_blank"><img src="https://i.imgur.com/RgBDJCr.png" title="Instagram" alt="Instagram" width="50rem"></a> 
+        </li>      
+        <li class="nav-item">
+          <a href="https://www.youtube.com/channel/UCQJSMsybsmQmvPmgTOR5osw" target="_blank"><img src="https://i.imgur.com/aYOy66y.png" title="YouTube" alt="YouTube" width="50rem"></a> 
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <img src="images/giphy_logo.png" class="mx-auto d-block img-fluid" alt="GIPHY Logo"/>
+  <h1 class="text-center">The Gift of Gifs</h1>
+  <p class="text-center">For people who believe GIF is pronounced the same as <strong><u>GIF</u></strong>t</p>
+  <div class="error"></div>
+  <form class="form-horizontal">
+    <fieldset class="mx-auto">
+      <div class="form-group">
+        <div>
+          <input id="textinput" name="textinput" type="text" placeholder="Enter search term" class="form-control-lg">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <button id="button" name="gimmeagif" class="btn btn-success btn-lg">Submit</button>
+        </div>
+      </div>
+    </fieldset>
+  </form>
+</div>
+<div id="results"></div>
+<script type="text/javascript" src="js/script.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
