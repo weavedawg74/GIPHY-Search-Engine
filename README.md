@@ -2,7 +2,7 @@
 
 ## Project: 
 
-[Link to site:](https://weavedawg74.github.io/GIPHY-Search-Engine/)
+[Link to site](https://weavedawg74.github.io/GIPHY-Search-Engine/)
 
 ## Overview:
 Design a search engine using an API to communicate from my page to an external source. The user will put in their desired search term, and the first 15 results will be displayed on the website.
